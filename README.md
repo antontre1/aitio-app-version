@@ -27,7 +27,7 @@ curl -s https://api.aitio.fr/
 ## Hébergement
 
 - GitHub Pages, branche `main`, racine du dépôt ; domaine personnalisé `api.aitio.fr` (fichier `CNAME`), HTTPS forcé.
-- DNS (zone `aitio.fr` chez OVH) : `api` en CNAME vers `antontre1.github.io.` ; domaine vérifié dans GitHub
+- DNS (zone `aitio.fr` chez OVH) : `api` en A vers les quatre adresses GitHub Pages (185.199.108.153 à 185.199.111.153) ; domaine vérifié dans GitHub
   (enregistrement TXT `_github-pages-challenge-antontre1`) pour empêcher qu'un autre compte le réclame.
 - Remplace l'ancien `index.php` sur l'hébergement mutualisé OVH `cluster024` (novembre 2026).
 
